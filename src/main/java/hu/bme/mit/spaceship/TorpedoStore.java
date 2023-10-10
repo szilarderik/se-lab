@@ -46,7 +46,6 @@ public class TorpedoStore {
     } else {
       // simulated failure
       success = false;
-      System.out.println("szia!");
     }
 
     return success;
